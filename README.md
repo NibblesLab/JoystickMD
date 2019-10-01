@@ -36,14 +36,29 @@ Please note to use APIs, `Joystick.setXAxisRange()`/`Joystick.setXAxis()`/`Joyst
 Megadrive/Genesis Mini's Gamepad has 10 buttons.
 The numbers and buttons table to use `Joystick.setButton()`/`Joystick.pressButton()`/`Joystick.releaseButton()` API as follows:
 
+*SEGA compatible*
+
 |Number|Button|
 |:-:|:-:|
 |0|Y|
 |1|B|
 |2|A|
 |3|X|
+|4|Z|
+|5|C|
+|8|MODE|
+|9|START|
+
+*DragonRise compatible*
+
+|Number|Button|
+|:-:|:-:|
+|0|X|
+|1|A|
+|2|B|
+|3|Y|
 |4|C|
-|5|Z?|
+|5|Z|
 |8|MODE|
 |9|START|
 

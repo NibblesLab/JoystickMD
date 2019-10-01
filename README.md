@@ -2,7 +2,7 @@
 **pre-release version**
 
 This is the project to make a joystick for Megadrive/Genesis Mini by Arduino.
-I don't have SEGA's 6B-stick, then I am using the MSX compatible stick now.
+I don't have SEGA's 6B-stick, then I am using compatible 3B-stick now.
 I will renew this project when I get a 6B-stick.
 
 ## Prepare the project
@@ -42,8 +42,8 @@ The numbers and buttons table to use `Joystick.setButton()`/`Joystick.pressButto
 |1|B|
 |2|A|
 |3|X|
-|4|Z|
-|5|C|
+|4|C|
+|5|Z?|
 |8|MODE|
 |9|START|
 

@@ -76,9 +76,9 @@ void loop() {
   if (state != lastButtonState_trig_A)
   {
     if (state == 0) {
-      Joystick.pressButton(2);
+      Joystick.pressButton(1);
     } else {
-      Joystick.releaseButton(2);
+      Joystick.releaseButton(1);
     }
     lastButtonState_trig_A = state;
     F_operate = true;
@@ -154,9 +154,9 @@ void loop() {
   if (state != lastButtonState_trig_B)
   {
     if (state == 0) {
-      Joystick.pressButton(1);
+      Joystick.pressButton(2);
     } else {
-      Joystick.releaseButton(1);
+      Joystick.releaseButton(2);
     }
     lastButtonState_trig_B = state;
     F_operate = true;
